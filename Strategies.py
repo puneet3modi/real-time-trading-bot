@@ -203,4 +203,3 @@ class MACDStrategy:
             return {'Direction': 'Sell', 'Amount': current_holdings}
         else:
             return None
-        
