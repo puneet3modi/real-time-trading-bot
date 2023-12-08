@@ -17,7 +17,7 @@ class Client:
         self.PORT = PORT
         self.capital = init_capital
         self.getStrategy(strat)
-        self.price = None  # Add a price attribute to store the latest price
+        self.price = None
 
     def getStrategy(self, strat):
         logging.debug(f"Setting strategy: {strat.__name__}")
