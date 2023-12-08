@@ -1,0 +1,56 @@
+2023-12-08 11:38:35,443:DEBUG:Initializing server
+2023-12-08 11:38:35,445:INFO:Server established and listening
+2023-12-08 11:38:35,445:INFO:Listening for client connection
+2023-12-08 11:38:45,069:DEBUG:Listening to client ('127.0.0.1', 58193)
+2023-12-08 11:38:45,070:DEBUG:Sending stream to client
+2023-12-08 11:38:45,070:INFO:Listening for client connection
+2023-12-08 11:38:45,070:DEBUG:Sending CSV data
+2023-12-08 11:38:46,316:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 0.0}
+2023-12-08 11:38:46,317:INFO:Holdings:|0 -> 0.0
+2023-12-08 11:38:46,617:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 528.3736812113243}
+2023-12-08 11:38:46,617:INFO:Holdings:|0.0 -> 528.3736812113243
+2023-12-08 11:38:47,070:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 528.3736812113243}
+2023-12-08 11:38:47,071:INFO:Holdings:|528.3736812113243 -> 0.0
+2023-12-08 11:38:47,348:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 523.8791575750881}
+2023-12-08 11:38:47,348:INFO:Holdings:|0.0 -> 523.8791575750881
+2023-12-08 11:38:48,805:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 523.8791575750881}
+2023-12-08 11:38:48,805:INFO:Holdings:|523.8791575750881 -> 0.0
+2023-12-08 11:38:49,220:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 466.93926998408386}
+2023-12-08 11:38:49,220:INFO:Holdings:|0.0 -> 466.93926998408386
+2023-12-08 11:38:50,594:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 466.93926998408386}
+2023-12-08 11:38:50,594:INFO:Holdings:|466.93926998408386 -> 0.0
+2023-12-08 11:38:50,728:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 359.6667099787543}
+2023-12-08 11:38:50,729:INFO:Holdings:|0.0 -> 359.6667099787543
+2023-12-08 11:38:51,936:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 359.6667099787543}
+2023-12-08 11:38:51,937:INFO:Holdings:|359.6667099787543 -> 0.0
+2023-12-08 11:38:52,204:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 307.77903667370117}
+2023-12-08 11:38:52,204:INFO:Holdings:|0.0 -> 307.77903667370117
+2023-12-08 11:38:52,567:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 307.77903667370117}
+2023-12-08 11:38:52,572:INFO:Holdings:|307.77903667370117 -> 0.0
+2023-12-08 11:38:52,732:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 306.8250364739099}
+2023-12-08 11:38:52,732:INFO:Holdings:|0.0 -> 306.8250364739099
+2023-12-08 11:38:53,644:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 306.8250364739099}
+2023-12-08 11:38:53,644:INFO:Holdings:|306.8250364739099 -> 0.0
+2023-12-08 11:38:53,881:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 270.22923641180716}
+2023-12-08 11:38:53,881:INFO:Holdings:|0.0 -> 270.22923641180716
+2023-12-08 11:38:54,438:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 270.22923641180716}
+2023-12-08 11:38:54,439:INFO:Holdings:|270.22923641180716 -> 0.0
+2023-12-08 11:38:55,159:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 290.45787489422986}
+2023-12-08 11:38:55,159:INFO:Holdings:|0.0 -> 290.45787489422986
+2023-12-08 11:38:55,358:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 290.45787489422986}
+2023-12-08 11:38:55,358:INFO:Holdings:|290.45787489422986 -> 0.0
+2023-12-08 11:38:56,131:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 335.44177463801714}
+2023-12-08 11:38:56,131:INFO:Holdings:|0.0 -> 335.44177463801714
+2023-12-08 11:38:56,548:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 335.44177463801714}
+2023-12-08 11:38:56,548:INFO:Holdings:|335.44177463801714 -> 0.0
+2023-12-08 11:38:57,150:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 367.02604317913165}
+2023-12-08 11:38:57,150:INFO:Holdings:|0.0 -> 367.02604317913165
+2023-12-08 11:38:57,473:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 367.02604317913165}
+2023-12-08 11:38:57,473:INFO:Holdings:|367.02604317913165 -> 0.0
+2023-12-08 11:38:57,736:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 349.2428304159663}
+2023-12-08 11:38:57,736:INFO:Holdings:|0.0 -> 349.2428304159663
+2023-12-08 11:38:59,498:DEBUG:Handling client answer: {'Direction': 'Sell', 'Amount': 349.2428304159663}
+2023-12-08 11:38:59,499:INFO:Holdings:|349.2428304159663 -> 0.0
+2023-12-08 11:39:00,261:DEBUG:Handling client answer: {'Direction': 'Buy', 'Amount': 273.2758993058231}
+2023-12-08 11:39:00,261:INFO:Holdings:|0.0 -> 273.2758993058231
+2023-12-08 11:39:03,733:ERROR:Unexpected Error with client ('127.0.0.1', 58193): Client Disconnected
