@@ -5,15 +5,13 @@ A real-time trading bot that connects a client to a server and executes via a tr
 
 Our example uses QQQ to make buy and sell trade decisions.
 
-![image](https://github.com/puneet3modi/real-time-trading-bot/assets/105491876/1abd5f33-8d04-4b7c-94bc-5b6109a08883)
-
+![image](https://github.com/puneet3modi/real-time-trading-bot/assets/51543073/90b6ca1a-c278-4e58-a9d9-948829513c18)
 
 ## 📃 Files
 
 * **server.py**: Simple TCP server that takes a CSV file and streams it to a connected client
 * **client.py**: Connects to server to retrieve price updates and creates servers that apply a given decision-making strategy to placing orders with the server
 * **strategies.py**: Consolidates multiple strategies that were used and tested.
-
 
 ## 🧠 Strategies
 
@@ -26,9 +24,7 @@ Widely used trading strategy due to its simplicity and effectiveness in trend id
 * Signals can also be interpreted from current stock price being above or below the MA20 or 50 thresholds
 * MA are lagging indicators, based on past price performance
 
-![image](https://github.com/puneet3modi/real-time-trading-bot/assets/105491876/40a916aa-11a0-4a99-a227-24abb402a7a3)
-
-
+![image](https://github.com/puneet3modi/real-time-trading-bot/assets/51543073/34be0fe4-d24d-48d6-9677-35f174dca64a)
 
 ### ⚡ Momentum
 
@@ -39,8 +35,7 @@ Based on the momentum of stock prices, looks to buy securities that are rising a
 * Uses buy and sell “thresholds” and calculated momentum percent changes that pass through thresholds result in buy or sell signals.
 * Assumes past price movements are indicative of future performance, which may not always be the case
 
-![image](https://github.com/puneet3modi/real-time-trading-bot/assets/105491876/55561619-63f1-4efc-8e58-7ec4465fd5a0)
-
+![image](https://github.com/puneet3modi/real-time-trading-bot/assets/51543073/81bbdf70-88d3-41f0-8af5-1c48a08c6983)
 
 ### 📊 Bollinger Bands
 
@@ -49,7 +44,7 @@ Bollinger Bands are a volatility indicator. They consist of a moving average (us
 * Buy Signal: When the price touches or goes below the lower band, it might indicate that the security is oversold and due for a rise.
 * Sell Signal: Conversely, when the price touches or exceeds the upper band, it might suggest the security is overbought and could be poised to drop.
 
-![image](https://github.com/puneet3modi/real-time-trading-bot/assets/105491876/c8dca126-88ca-49b1-aeb8-c1b7aaaf2824)
+![image](https://github.com/puneet3modi/real-time-trading-bot/assets/51543073/2add373b-2f1f-41f1-a35d-1e4a3e1bf561)
 
 ### 💊 Moving Average Convergence Divergence
 
@@ -59,8 +54,7 @@ The MACD is a trend-following momentum indicator that shows the relationship bet
 * **Signal Line**: A 9-period EMA of the MACD Line.
 * **Histogram**: The difference between the MACD line and the Signal line.
 
-![image](https://github.com/puneet3modi/real-time-trading-bot/assets/105491876/111456a8-65a5-4d04-bc0e-bda84b111ad8)
-
+![image](https://github.com/puneet3modi/real-time-trading-bot/assets/51543073/72fb50f2-00a3-4b31-8f8b-0cf717b8562f)
 
 ### 📉 Mean Reversion
 
@@ -68,8 +62,7 @@ Mean Reversion is when returns eventually move back towards the mean or average.
 * **Buy Signal**: When the current price is significantly lower than the historical average, the strategy assumes the price is undervalued and will increase back to the mean. Therefore, it generates a buy order.
 * **Sell Signal**: Conversely, when the price is significantly higher than the historical average, the strategy assumes the price is overvalued and will decrease back to the mean. Hence, it generates a sell order.
 
-![image](https://github.com/puneet3modi/real-time-trading-bot/assets/105491876/7320db69-1688-4adf-8423-5b60d2afd0bb)
-
+![image](https://github.com/puneet3modi/real-time-trading-bot/assets/51543073/8074d88d-08d3-4344-ab79-27257f6cb090)
 
 ## 🧐 Results
 
