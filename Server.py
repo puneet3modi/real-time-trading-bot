@@ -3,7 +3,7 @@ import threading
 import csv
 import json
 # import argparse
-import sys
+# import sys
 import time
 # import datetime
 import logging
